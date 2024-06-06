@@ -1,0 +1,11 @@
+{
+  "ignore": [
+    ".git",
+    "node_modules"
+  ],
+  "verbose": true,
+  "watch": [
+    "src"
+  ],
+  "exec": "tsc --build && node --env-file=.env ./dist/index.js"
+}
